@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.smu.qa.testcases.LoginTest" duration-ms="27142" started-at="2019-02-20T14:51:18Z" finished-at="2019-02-20T14:51:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="27142" started-at="2019-02-20T14:51:18Z" finished-at="2019-02-20T14:51:45Z">
+      <class name="com.smu.qa.testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginTest@26ba2a48]" name="setUp" is-config="true" duration-ms="10335" started-at="2019-02-20T14:51:18Z" finished-at="2019-02-20T14:51:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userlogin()[pri:0, instance:com.smu.qa.testcases.LoginTest@26ba2a48]" name="userlogin" duration-ms="16119" started-at="2019-02-20T14:51:29Z" finished-at="2019-02-20T14:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="647" started-at="2019-02-20T14:51:45Z" finished-at="2019-02-20T14:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.smu.qa.testcases.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.smu.qa.testcases.LoginTest -->
+</testng-results>
