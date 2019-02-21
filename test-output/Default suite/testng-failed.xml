@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.smu.qa.testcases.LoginTest">
+      <class name="com.smu.qa.testcases.LoginPageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="LoginPageLogo"/>
           <include name="tearDown"/>
-          <include name="userlogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.smu.qa.testcases.LoginTest -->
+      </class> <!-- com.smu.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

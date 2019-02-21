@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginTest " duration-ms="31020" started-at="2019-02-20T16:19:28Z" finished-at="2019-02-20T16:19:59Z">
+  <suite name="Default suite" duration-ms="50346" started-at="2019-02-21T10:19:19Z" finished-at="2019-02-21T10:20:10Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="31020" started-at="2019-02-20T16:19:28Z" finished-at="2019-02-20T16:19:59Z">
-      <class name="com.smu.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginTest@42e26948]" name="setUp" is-config="true" duration-ms="11051" started-at="2019-02-20T16:19:28Z" finished-at="2019-02-20T16:19:39Z">
+    <test name="Default test" duration-ms="50346" started-at="2019-02-21T10:19:19Z" finished-at="2019-02-21T10:20:10Z">
+      <class name="com.smu.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="9587" started-at="2019-02-21T10:19:19Z" finished-at="2019-02-21T10:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userlogin()[pri:0, instance:com.smu.qa.testcases.LoginTest@42e26948]" name="userlogin" duration-ms="19284" started-at="2019-02-20T16:19:39Z" finished-at="2019-02-20T16:19:58Z">
+        <test-method status="PASS" signature="LoginPageLogo()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="LoginPageLogo" duration-ms="58" started-at="2019-02-21T10:19:29Z" finished-at="2019-02-21T10:19:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userlogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginTest@42e26948]" name="tearDown" is-config="true" duration-ms="647" started-at="2019-02-20T16:19:58Z" finished-at="2019-02-20T16:19:59Z">
+        </test-method> <!-- LoginPageLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="723" started-at="2019-02-21T10:19:29Z" finished-at="2019-02-21T10:19:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.smu.qa.testcases.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- LoginTest  -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="7571" started-at="2019-02-21T10:19:30Z" finished-at="2019-02-21T10:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginPageTitleTest()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="LoginPageTitleTest" duration-ms="12" started-at="2019-02-21T10:19:37Z" finished-at="2019-02-21T10:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="650" started-at="2019-02-21T10:19:37Z" finished-at="2019-02-21T10:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="7923" started-at="2019-02-21T10:19:38Z" finished-at="2019-02-21T10:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RememberUsernameCheckBox()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="RememberUsernameCheckBox" duration-ms="41" started-at="2019-02-21T10:19:46Z" finished-at="2019-02-21T10:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RememberUsernameCheckBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="663" started-at="2019-02-21T10:19:46Z" finished-at="2019-02-21T10:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="setUp" is-config="true" duration-ms="7932" started-at="2019-02-21T10:19:46Z" finished-at="2019-02-21T10:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userlogin()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="userlogin" duration-ms="14484" started-at="2019-02-21T10:19:54Z" finished-at="2019-02-21T10:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.smu.qa.testcases.LoginPageTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="667" started-at="2019-02-21T10:20:09Z" finished-at="2019-02-21T10:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.smu.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

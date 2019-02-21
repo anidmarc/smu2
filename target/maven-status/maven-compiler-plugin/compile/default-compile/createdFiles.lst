@@ -1,3 +1,5 @@
+com\smu\qa\extentreport\listener\ExtentReporterNG.class
 com\smu\qa\base\base.class
 com\smu\qa\util\TestUtil.class
-com\smu\qa\pages\Login.class
+com\smu\qa\pages\DashboardPage.class
+com\smu\qa\pages\LoginPage.class
